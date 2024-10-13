@@ -1,0 +1,29 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.chart {
+  width: 100%;
+}
+
+.sparkline-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.sparkline {
+  width: 45%;
+}
